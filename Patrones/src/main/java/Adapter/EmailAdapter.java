@@ -9,7 +9,7 @@ public class EmailAdapter implements NotificationService{
 
     @Override
     public void enviarNotificacion() {
-        adaptee.enviarNotificacion(correo, mensaje);
+        adaptee.enviarNotificacion("", "");
     }
     
     

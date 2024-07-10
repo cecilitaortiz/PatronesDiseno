@@ -10,6 +10,6 @@ public class TelegramAdapter implements NotificationService{
 
     @Override
     public void enviarNotificacion() {
-        adaptee.enviarNotificacion(nombre, mensaje);
+        adaptee.enviarNotificacion("", "");
     }
 }
