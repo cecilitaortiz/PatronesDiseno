@@ -1,4 +1,5 @@
 package Decorator;
+import principal.Informe;
 
 public class Excel extends Informe{
 

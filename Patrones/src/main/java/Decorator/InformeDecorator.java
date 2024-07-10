@@ -1,4 +1,5 @@
 package Decorator;
+import principal.Informe;
 
 public abstract class InformeDecorator extends Informe{
     

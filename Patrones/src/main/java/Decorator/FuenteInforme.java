@@ -1,4 +1,5 @@
 package Decorator;
+import principal.Informe;
 
 public class FuenteInforme extends InformeDecorator{
     
