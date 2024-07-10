@@ -3,8 +3,9 @@ package Decorator;
 public class Word extends Informe{
 
     @Override
-    public void generarInforme() {
+    public Informe generarInforme() {
          //genera un informe en word
+         return null;
     }
     
 }

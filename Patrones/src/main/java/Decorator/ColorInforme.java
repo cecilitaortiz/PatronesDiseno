@@ -6,4 +6,13 @@ public class ColorInforme extends InformeDecorator{
         super(informe);
     }
     
+    private void agregarColor(){
+        //agrega color al informe
+    }
+    
+    @Override
+    public Informe generarInforme(){
+        agregarColor();
+        return super.informe;
+    }
 }

@@ -3,8 +3,9 @@ package Decorator;
 public class Excel extends Informe{
 
     @Override
-    public void generarInforme() {
-        //genera infome en excel
+    public Informe generarInforme() {
+        //genera infome en excel y lo devuelve
+        return null;
     }
     
 }

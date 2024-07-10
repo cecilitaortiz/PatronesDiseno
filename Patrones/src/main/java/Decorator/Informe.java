@@ -5,5 +5,7 @@ public abstract class Informe {
     protected String nombre;
     protected String contenido;
     
-    public void generarInforme(){}
+    public Informe generarInforme(){
+        return null;
+    }
 }

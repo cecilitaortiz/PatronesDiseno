@@ -6,4 +6,13 @@ public class FuenteInforme extends InformeDecorator{
         super(informe);
     }
     
+    private void cambiarFuente(){
+        //cambia la fuente al informe
+    }
+    
+    @Override
+    public Informe generarInforme(){
+        cambiarFuente();
+        return super.informe;
+    }
 }

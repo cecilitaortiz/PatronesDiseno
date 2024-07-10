@@ -3,8 +3,9 @@ package Decorator;
 public class PDF extends Informe{
 
     @Override
-    public void generarInforme() {
+    public Informe generarInforme() {
         //genera un informe en pdf
+        return null;
     }
     
 }
