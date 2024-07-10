@@ -3,25 +3,21 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package builder;
-import principal.*;
+
 /**
  *
  * @author CltControl
  */
-public abstract class InformeBuilder {
-    protected Informe i;
-    protected String nombre;
-    protected String contenido;
-    
+public class PDFBuilder extends InformeBuilder {
+    @Override
     public void construirNombre(){
-    //all
+     //all
     }
+    @Override
     public void costruirContenido(){
     //all
     }
-
-    public Informe getInforme() {
-        return i;
+    public void definirInforme(){
+    //all
     }
-    
 }

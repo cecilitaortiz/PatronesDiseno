@@ -3,27 +3,22 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package builder;
-import principal.*;
 
 /**
  *
  * @author CltControl
  */
-public class InformeDirector {
-    private InformeBuilder i;
-    protected Informe in;
-    
-    public InformeDirector(InformeBuilder informe){
-    this.i=informe;
+public class WordBuilder extends InformeBuilder {
+    @Override
+    public void construirNombre(){
+     //all
     }
-    public void construirInforme(){
+    @Override
+    public void costruirContenido(){
     //all
     }
-
-    public Informe getInforme() {
-        return in;
+    public void definirInforme(){
+    //all
     }
-    
-    
     
 }
